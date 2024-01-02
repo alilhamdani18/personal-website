@@ -1,0 +1,11 @@
+.navbar-nav li {
+  margin-right: 10px;
+}
+.navbar-nav li a {
+  color: #000;
+}
+.navbar-nav .btn {
+  font-size: .9em;
+  padding: 3px 20px;
+  border-radius: 50px;
+}
