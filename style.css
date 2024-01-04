@@ -30,16 +30,18 @@ section {
 .hero-image {
   position: relative;
 }
+
 .hero-image .waves {
-  width: 400px;
-  height: 400px;
+  width: 370px;
+  height: 370px;
   position: absolute;
   top: 15px;
-  left: 60px;
+  left: 30px;
   border-radius: 50%;
   z-index: -33;
   /* background-color: #d6a70d; */
 }
+
 .hero .hero-footer {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
   border-radius: 50px;
@@ -68,7 +70,7 @@ section {
 
 /*  */
 #about .img {
-  filter: drop-shadow(-3px 3px 7px rgb(202, 146, 3));
+  filter: drop-shadow(-3px 3px 7px rgb(93, 93, 93));
 }
 th {
   padding-right: 20px;
@@ -87,10 +89,35 @@ th {
 }
 
 /*  */
+#portfolio .card {
+  overflow: hidden;
+}
+#portfolio .card .card-img-top {
+  display: block;
+  transform: scale(1);
+  object-fit: cover;
+  transition: .4s ease-in-out;
+}
+#portfolio .card:hover .card-img-top {
+  transform: scale(1.111);
+}
+
+
+/*  */
 .sosmed-list {
   display: flex;
   gap: 1em;
   font-size: 2em;
 }
+footer {
+  background-color: #efefef;
+}
 
+@media screen and (max-width:578px) {
+  .hero-image .waves {
+    width: 390px;
+    height: 390px;
+    left: 0px;
+  }
+}
 
