@@ -73,3 +73,15 @@ section {
 th {
   padding-right: 20px;
 }
+
+
+/*  */
+.service-list {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, .3);
+  transition:  .5s ease-in-out ;
+}
+
+.service-list:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+}
