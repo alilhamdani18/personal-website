@@ -85,3 +85,12 @@ th {
   cursor: pointer;
   transform: translateY(-10px);
 }
+
+/*  */
+.sosmed-list {
+  display: flex;
+  gap: 1em;
+  font-size: 2em;
+}
+
+
